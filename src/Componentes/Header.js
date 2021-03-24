@@ -1,9 +1,12 @@
-
+// Componente Header de la aplicacion con el titulo
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
 
-
+/**
+ * Retrna un componente de texto con un estilo espesifico
+ * @param {} titulo Texto que se mostrara en la cabezera.
+ */
 
 const Header = (props) => {
     const {estiloTexto, estiloContenedor} = styles;
@@ -15,6 +18,7 @@ const Header = (props) => {
 
 };
 
+// Estilo espesifico del header
 const styles = StyleSheet.create({
     estiloTexto:{
         fontSize:25,

@@ -1,7 +1,11 @@
 import React from 'react';
 import {Text, TouchableOpacity, StyleSheet} from 'react-native';
 
-
+/**
+ * Componente que muestra un boton de tipo TouchableOpacity con una funcion onPress parametro.
+ * @param {Function} props.botonPresionado funcion que realizara la aplicacion al precionar este componente.
+ * @return {TouchableOpacity} TouchableOpacity con texto y estilo de Boton
+ */
 const Button = (props) =>{
     const {estiloTexto, estiloBoton} = styles;
 
@@ -12,7 +16,7 @@ const Button = (props) =>{
     );
 };
 
-
+// Estilos del boton
 const styles = StyleSheet.create({
     estiloTexto:{
         fontSize: 20,

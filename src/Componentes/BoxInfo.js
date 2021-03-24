@@ -1,11 +1,15 @@
 import React from 'react';
 import { View, Text, Image, Linking, StyleSheet } from 'react-native';
 
-import Item from './Item'; 
-import ItemSection from './ItemSection'; 
-import Button from './Button'; 
+import Item from './Item'; // item, para mostrar la informacion
+import ItemSection from './ItemSection'; //seccion de item
+import Button from './Button'; //boton 
 
-
+/**
+ * extrae y muestra toda la infomrmacion de una sola mascota de porps.
+ * @param {*} props datos de una mascota siguiendo el modelo de la tabla mascotas.
+ * @return {Item} Componente Item con todos los datos de una mascota.
+ */
 const BoxInfo = (props) => {
     return(
         <Item>
@@ -28,7 +32,7 @@ const BoxInfo = (props) => {
     );
 };
 
-
+// estilos para el cuadro de informacion de la mascotas
 const styles = StyleSheet.create({
     estiloTitulo:{
         alignSelf: "center",
