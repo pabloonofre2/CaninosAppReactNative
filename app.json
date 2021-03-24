@@ -1,0 +1,12 @@
+{
+  "name": "CaninosApp",
+  "displayName": "CaninosApp",
+  "expo": {
+    "name": "CaninosApp",
+    "slug": "CaninosApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
