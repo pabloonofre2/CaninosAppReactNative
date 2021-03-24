@@ -2,10 +2,21 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View, ImageBackground } from 'react-native';
 
+// Componente Header de la aplicacion, para mostrar la cabezera.
+import Header from './src/Componentes/Header';
+
+// Componenete que lista las mascotas
+import ListMascotas from './src/Componentes/ListMascotas';
+
+// vista pricipal de la aplicacion
 export default function App() {
   return (
     <View style={styles.container}>
-            <StatusBar style="auto" />
+      <Header titulo={'CANINOS'}/>
+      <ImageBackground source={imagen} style={styles.fondo}>
+        <ListMascotas/>
+      </ImageBackground>
+      <StatusBar style="auto" />
     </View>
   );
 }
