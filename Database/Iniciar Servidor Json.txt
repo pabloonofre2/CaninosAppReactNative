@@ -1,0 +1,11 @@
+JSON Server es una API REST NodeJS para entornos de desarrollo y pruebas, toma como base de datos un archivo JSON. es un servicio rest completo por lo que cuenta con los metodos: GET, POST, PUT, PATCH, DELETE.
+
+Instalacion: 
+
+npm install --save json-server
+
+Desplegar servicio REST con la base de datos bdmascotas.json
+y un host espesifico:
+
+json-server --watch --host 192.168.0.17 bdmascota.json
+

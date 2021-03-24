@@ -1,0 +1,39 @@
+{
+  "mascotas": [
+    {
+      "id": 1,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/bf/04_Akilles_Running.jpg",
+      "información": "https://es.wikipedia.org/wiki/Rottweiler",
+      "nombre": "Max",
+      "raza": "Rottweiler"
+    },
+    {
+      "id": 2,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chihuahua1_bvdb.jpg",
+      "información": "https://es.wikipedia.org/wiki/Chihuahua_(perro)",
+      "nombre": "Zeus",
+      "raza": "Chihuahua "
+    },
+    {
+      "id": 3,
+      "imagen": "https://static.wikia.nocookie.net/razasdeperros4226/images/5/52/Dalmata_bebe.jpg/revision/latest/scale-to-width-down/454?cb=20170324115555&path-prefix=es",
+      "información": "https://es.wikipedia.org/wiki/D%C3%A1lmata_(perro)",
+      "nombre": "Oreo",
+      "raza": "Dálmata"
+    },
+    {
+      "id": 4,
+      "imagen": "https://1.bp.blogspot.com/-ClJZytVhxFY/XwfrEe5h8DI/AAAAAAAAM5k/sanK5VlOrw02LSI7n1K0OKO57ZbUw24tQCLcBGAsYHQ/s1600/bored%2Bpanda3.jpg",
+      "información": "https://es.wikipedia.org/wiki/Shiba_Inu",
+      "nombre": "Cheems",
+      "raza": "Shiba Inu"
+    },
+    {
+      "id": 5,
+      "imagen": "https://nfnatcane.es/blog/wp-content/uploads/2019/03/Pitbull-adulto.jpg",
+      "información": "https://es.wikipedia.org/wiki/American_Pitbull_Terrier",
+      "nombre": "Mia",
+      "raza": "American Pitbull Terrier"
+    }
+  ]
+}
